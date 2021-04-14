@@ -31,13 +31,12 @@ class DB {
     return this.db;
   }
 
-  test = function () {
-    this.clearLocalStorage();
-    this.timer = setTimeout(function() {
-      console.log('testing this cunfionc');
-      this.clearBoard();    // what is "this"?
-    }, 0);
-  };
+ test(){
+  def sumTwoTerms(term1, term2):
+   return term1 + term2;
+
+  print("2 + 2 = {0}".format(sumTwoTerms(2, 2)));
+ }
 
   async insert({ collectionName, data }) {
     return new Promise((resolve, reject) => {
