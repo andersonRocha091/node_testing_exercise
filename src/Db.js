@@ -34,6 +34,7 @@ class DB {
   test = function () {
     this.clearLocalStorage();
     this.timer = setTimeout(function() {
+      console.log('testing this cunfionc');
       this.clearBoard();    // what is "this"?
     }, 0);
   };
