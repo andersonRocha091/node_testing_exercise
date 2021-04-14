@@ -1,5 +1,4 @@
 const { readFile, writeFile } = require('fs');
-
 class DB {
   constructor({ path }) {
     this.db = {};
