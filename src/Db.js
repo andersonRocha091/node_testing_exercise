@@ -30,6 +30,7 @@ class DB {
     return this.db;
   }
 
+  console.log
 
   getDataTest() {
     return this.db;
