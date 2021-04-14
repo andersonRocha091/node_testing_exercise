@@ -27,10 +27,28 @@ class DB {
   }
 
   getData() {
+    console.log('test');
+    console.log('test');
+    console.log('test');
+    console.log('test');
+    console.log('test');
+    console.log('test');
+    console.log('test');
+    console.log('test');
+    console.log('test');
+    console.log('test');
+    console.log('test');
+    console.log('test');
+    console.log('test');
+    console.log('test');
+    console.log('test');
+    console.log('test');
+    console.log('test');
+    console.log('test');
+    console.log('test');
+    console.log('test');
     return this.db;
   }
-
-  console.log
 
   getDataTest() {
     return this.db;
