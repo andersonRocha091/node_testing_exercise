@@ -29,7 +29,7 @@ class DB {
   getData() {
     return this.db;
   }
-  console.log();
+  
   getDataTest() {
     return this.db;
   }
