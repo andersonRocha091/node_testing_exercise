@@ -30,32 +30,10 @@ class DB {
     return this.db;
   }
 
- test(){
-  console.log('test');
-  console.log('test');
-  console.log('test');
-  console.log('test');
-  console.log('test');
-  console.log('test');
-  console.log('test');
-  console.log('test');
-  console.log('test');
-  console.log('test');
-  console.log('test');
-  console.log('test');
-  console.log('test');
-  console.log('test');
-  console.log('test');
-  console.log('test');
-  console.log('test');
-  console.log('test');
-  console.log('test');
-  console.log('test');
-  console.log('test');
-  console.log('test');
-  console.log('test');
-  console.log('test');
- }
+
+  getDataTest() {
+    return this.db;
+  }
 
   async insert({ collectionName, data }) {
     return new Promise((resolve, reject) => {
