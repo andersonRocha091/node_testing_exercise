@@ -1,0 +1,11 @@
+{
+  "name": "pokemon_crud",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/andersonRocha091/node_testing_exercise.git",
+  "author": "Anderson <andersonecomp091@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.3.4"
+  }
+}

@@ -3,6 +3,23 @@ class BaseCrud{
     this.db = db
   }
 
+  test(){
+    console.log('test');
+    console.log('test');
+    console.log('test');
+    console.log('test');
+    console.log('test');
+    console.log('test');
+    console.log('test');
+    console.log('test');
+    console.log('test');
+    console.log('test');
+    console.log('test');
+    console.log('test');
+    console.log('test');
+    console.log('test');
+   }
+
   add(){
 
   }
