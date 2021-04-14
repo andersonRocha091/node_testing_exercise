@@ -29,56 +29,10 @@ class DB {
 
   getData() {
     return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
+  }
+
+  getDataTest() {
+    return
   }
 
   async insert({ collectionName, data }) {
