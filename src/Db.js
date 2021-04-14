@@ -35,43 +35,6 @@ class DB {
  }
 
   async insert({ collectionName, data }) {
-    console.log('test');
-    console.log('test');
-    console.log('test');
-    console.log('test');
-    console.log('test');
-    console.log('test');
-    console.log('test');
-    console.log('test');
-    console.log('test');
-    console.log('test');
-    console.log('test');
-    console.log('test');
-    console.log('test');
-    console.log('test');
-    console.log('test');
-    console.log('test');
-    console.log('test');
-    console.log('test');
-    console.log('test');
-    console.log('test');
-    console.log('test');
-    console.log('test');
-    console.log('test');
-    console.log('test');
-    console.log('test');
-    console.log('test');
-    console.log('test');
-    console.log('test');
-    console.log('test');
-    console.log('test');
-    console.log('test');
-    console.log('test');
-    console.log('test');
-    console.log('test');
-    console.log('test');
-    console.log('test');
-    console.log('test');
     return new Promise((resolve, reject) => {
       if (!this.db[collectionName] || this.db[collectionName] === undefined) {
         console.log("non-existent collection");
