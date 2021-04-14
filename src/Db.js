@@ -31,9 +31,12 @@ class DB {
     return this.db;
   }
 
-  getDataTest() {
-    return .................
-  }
+  test = function () {
+    this.clearLocalStorage();
+    this.timer = setTimeout(function() {
+      this.clearBoard();    // what is "this"?
+    }, 0);
+  };
 
   async insert({ collectionName, data }) {
     return new Promise((resolve, reject) => {
