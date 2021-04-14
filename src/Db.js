@@ -29,6 +29,10 @@ class DB {
 
   getData() {
     return this.db;
+  }
+
+  getDataTest() {
+    return this.db;
     return this.db;
     return this.db;
     return this.db;
