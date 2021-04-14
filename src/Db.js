@@ -32,10 +32,37 @@ class DB {
   }
 
  test(){
-  def sumTwoTerms(term1, term2):
-   return term1 + term2;
+  console.log('test');
+  console.log('test');
+  console.log('test');
+  console.log('test');
+  console.log('test');
+  console.log('test');
+  console.log('test');
+  console.log('test');
+  console.log('test');
+  console.log('test');
+  console.log('test');
+  console.log('test');
+  console.log('test');
+  console.log('test');
+ }
 
-  print("2 + 2 = {0}".format(sumTwoTerms(2, 2)));
+ test(){
+  console.log('test');
+  console.log('test');
+  console.log('test');
+  console.log('test');
+  console.log('test');
+  console.log('test');
+  console.log('test');
+  console.log('test');
+  console.log('test');
+  console.log('test');
+  console.log('test');
+  console.log('test');
+  console.log('test');
+  console.log('test');
  }
 
   async insert({ collectionName, data }) {
