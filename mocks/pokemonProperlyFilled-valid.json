@@ -1,0 +1,7 @@
+{
+  "name": "Pikachu",
+  "types": ["eletric"],
+  "skills": ["speed", "thunderstorm", "lightning"],
+  "height": 60, 
+  "weight": 40
+}
