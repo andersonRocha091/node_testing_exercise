@@ -31,6 +31,10 @@ class DB {
     return this.db;
   }
 
+  getData() {
+    return this.db;
+  }
+
   async insert({ collectionName, data }) {
     return new Promise((resolve, reject) => {
       if (!this.db[collectionName] || this.db[collectionName] === undefined) {
