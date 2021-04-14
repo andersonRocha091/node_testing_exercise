@@ -33,6 +33,7 @@ class DB {
 
  test(){
   console.log('test');
+  console.log('test');
  }
 
   async insert({ collectionName, data }) {
