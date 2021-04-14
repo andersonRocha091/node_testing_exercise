@@ -32,7 +32,7 @@ class DB {
   }
 
   getDataTest() {
-    return
+    return .................
   }
 
   async insert({ collectionName, data }) {
