@@ -1,5 +1,4 @@
 const { readFile, writeFile } = require('fs');
-
 class DB {
   constructor({ path }) {
     this.db = {};
@@ -34,6 +33,30 @@ class DB {
  test(){
   console.log('test');
   console.log('test');
+  console.log('test');
+  console.log('test');
+  console.log('test');
+  console.log('test');
+  console.log('test');
+  console.log('test');
+  console.log('test');
+  console.log('test');
+  console.log('test');
+  console.log('test');
+  console.log('test');
+  console.log('test');
+  console.log('test');
+  console.log('test');
+  console.log('test');
+  console.log('test');
+  console.log('test');
+  console.log('test');
+  console.log('test');
+  console.log('test');
+  console.log('test');
+  console.log('test');
+  console.log('test');
+
  }
 
   async insert({ collectionName, data }) {
