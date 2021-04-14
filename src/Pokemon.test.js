@@ -36,11 +36,13 @@ const DB = require('./Db');
   //Validatind db creation
   {
     const db = new DB({path:'db.json'});
-    assert.deepStrictEqual({},db.getData());
+    const data = await db.init()
+    assert.deepStrictEqual(data,db.getData());
   }
   //Validating an insert operation
   {
     const db = await new DB({ path: "db.json" });
+    await db.init();
     const data = {
       name: "Pikachu",
       types: ["eletric"],
