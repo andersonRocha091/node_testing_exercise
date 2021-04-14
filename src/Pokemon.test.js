@@ -1,4 +1,5 @@
-const assert = require('assert');
+// const assert = require('assert');
+const {assert} = require('chai');
 
 const Pokemon = require("./Pokemon");
 const {error} = require('./Constants.js');

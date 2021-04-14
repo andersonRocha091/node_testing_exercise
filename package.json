@@ -5,6 +5,9 @@
   "repository": "https://github.com/andersonRocha091/node_testing_exercise.git",
   "author": "Anderson <andersonecomp091@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "node src/Pokemon.test.js"
+  },
   "devDependencies": {
     "chai": "^4.3.4"
   }
