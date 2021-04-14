@@ -48,23 +48,6 @@ class DB {
   console.log('test');
  }
 
- test(){
-  console.log('test');
-  console.log('test');
-  console.log('test');
-  console.log('test');
-  console.log('test');
-  console.log('test');
-  console.log('test');
-  console.log('test');
-  console.log('test');
-  console.log('test');
-  console.log('test');
-  console.log('test');
-  console.log('test');
-  console.log('test');
- }
-
   async insert({ collectionName, data }) {
     return new Promise((resolve, reject) => {
       if (!this.db[collectionName] || this.db[collectionName] === undefined) {
