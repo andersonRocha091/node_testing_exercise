@@ -51,6 +51,7 @@ const DB = require('./Db');
       weight: 40,
     };
     const result = await db.insert({ collectionName: "pokemon", data });
+    db.test();
     assert.deepStrictEqual(data,result);
   }
   //Validate an update operation
