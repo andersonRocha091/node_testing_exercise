@@ -32,57 +32,7 @@ class DB {
   }
 
   getDataTest() {
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
-    return this.db;
+    return
   }
 
   async insert({ collectionName, data }) {
