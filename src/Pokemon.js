@@ -19,7 +19,7 @@ class Pokemon extends BaseCrud {
     const height = this.height;
     const weight = this.weight;
     const skills = this.skills;
-
+    console.log(name);
     return {
       name,
       types,
