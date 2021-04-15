@@ -1,14 +1,32 @@
+const {v4} = require('uuid')
 const BaseCrud = require('./BaseCrud.js');
 const { error } = require('./Constants.js');
 
 class Pokemon extends BaseCrud {
-  constructor({ name, types = [], height = 0, weight = 0, skills = [], db }) {
+  constructor({ id = null,name, types = [], height = 0, weight = 0, skills = [], db }) {
     super({db: db});
+    this.id = !id ? v4() : id; 
     this.name = name;
     this.types = types;
     this.height = height;
     this.weight = weight;
     this.skills = skills;
+  }
+
+  getProperties(){
+    const name = this.name;
+    const types = this.types;
+    const height = this.height;
+    const weight = this.weight;
+    const skills = this.skills;
+
+    return {
+      name,
+      types,
+      height,
+      weight,
+      skills,
+    }
   }
 
   async isValid() {
@@ -24,6 +42,7 @@ class Pokemon extends BaseCrud {
       valid: true,
     };
   }
+
 }
 
 module.exports = Pokemon;
