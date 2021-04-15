@@ -1,4 +1,6 @@
 const { readFile, writeFile } = require('fs');
+
+const {error} = require('./Constants');
 class DB {
   constructor({ path }) {
     this.db = {};
@@ -20,7 +22,6 @@ class DB {
         else{
           this.db = JSON.parse(data);
           resolve(this.db);
-          console.log("data: ", this.db);
         }
       });
     });
@@ -30,14 +31,9 @@ class DB {
     return this.db;
   }
   
-  getDataTest() {
-    return this.db;
-  }
-
   async insert({ collectionName, data }) {
-    return new Promise((resolve, reject) => {
+    return new Promise((resolve,reject) => {
       if (!this.db[collectionName] || this.db[collectionName] === undefined) {
-        console.log("non-existent collection");
         this.db[collectionName] = [];
       }
       this.db[collectionName].push(data);
@@ -46,6 +42,16 @@ class DB {
         if (error) reject(error);
         resolve(data);
       });
+    });
+  }
+  
+  async update(id,properties,collectionName){
+    console.log('ID: ',id);
+    return new Promise((resolve,reject)=>{
+      const itemExists = this.db[collectionName].find((item)=>{
+        item.id === id;
+      });
+      if(!itemExists) reject(new Error(error.OBJECT_NOT_FOUND));
     });
   }
 }
