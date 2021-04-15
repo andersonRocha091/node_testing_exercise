@@ -12,27 +12,7 @@ class Pokemon extends BaseCrud {
     this.weight = weight;
     this.skills = skills;
   }
-  test(){
-    console.log('test');
-    console.log('test');
-    console.log('test');
-    console.log('test');
-    console.log('test');
-    console.log('test');
-    console.log('test');
-    console.log('test');
-    console.log('test');
-    console.log('test');
-    console.log('test');
-    console.log('test');
-    console.log('test');
-    console.log('test');
-    console.log('test');
-    console.log('test');
-    console.log('test');
-    console.log('test');
-    console.log('test');
-  }
+
   getProperties(){
     const name = this.name;
     const types = this.types;
